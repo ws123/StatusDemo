@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@android:color/holo_blue_bright"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true"
+        android:text="有两种实现方式，这是第一种，点击按钮，是第二种，你看起来效果一样，实际上布局文件不一样，java文件里代码的作用是让通知栏透明，布局文件里代码的作用，是让内容下移，其实，这个属性是有一些用途的，大家也可以专门查一下这个属性的作用" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="50dp"
+        android:text="第二种实现方式"
+        android:id="@+id/button"/>
+
+</RelativeLayout>
